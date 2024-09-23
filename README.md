@@ -13,15 +13,27 @@
 To get started with FASI, clone the repository and install the dependencies:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:bypirob/fasi.git
 cd fasi
 npm install
 ```
 
 ## 🛠️ Usage
+
 For development, run:
 
+bash
+```
+npm run dev
+```
+
 For production, build and start the server:
+
+bash
+```
+npm run build
+npm start
+```
 
 ## 🤝 Contributing
 
